@@ -1,0 +1,239 @@
+@media (max-width: 575.98px) {
+    .logo-size{
+        width: 43%;
+    }
+    .header-text h1{
+        font-size: 28px;
+    }
+    .header-text h2{
+        font-size: 19px;
+    }
+    .header-text p{
+        font-size: 16px;
+    }
+    .section-title h3{
+        font-size: 2em;
+    }
+    .cards img{
+        width: 60px !important;
+    }
+    .card-body{
+        margin-left: 17%;
+    }
+    .vastrener {
+        font-size: 28px;
+    }
+    .onama p{
+        font-size: 16px;
+    }
+    .onama b{
+        font-size: 14px;
+    }
+    .comments h5 {
+        font-size: 17px;
+    }
+
+    .comments h6 {
+        font-size: 13px;
+    }
+
+    .comments p {
+        font-size: 15px;
+    }
+    .text-sm-center-xs{
+        text-align: center;
+    }
+
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .logo-size{
+        width: 43%;
+    }
+
+    .header-text h1{
+        font-size: 29.5px;
+    }
+    .header-text h2{
+        font-size: 19.5px;
+    }
+    .header-text p{
+        font-size: 16.5px;
+    }
+    .section-title h3{
+        font-size: 2em;
+    }
+    .cards img{
+        width: 68px !important;
+    }
+    .card-body{
+        margin-left: 25%;
+    }
+    .vastrener {
+        font-size: 29px;
+    }
+    .onama p{
+        font-size: 16px;
+    }
+    .onama b{
+        font-size: 14px;
+    }
+    .comments h5 {
+        font-size: 18px;
+    }
+
+    .comments h6 {
+        font-size: 14px;
+    }
+
+    .comments p {
+        font-size: 16px;
+    }
+    .text-sm-center-xs{
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .logo-size{
+        width: 27%;
+    }
+
+    .header-text h1{
+        font-size: 32px;
+    }
+    .header-text h2{
+        font-size: 22px;
+    }
+    .header-text p{
+        font-size: 18px;
+    }
+    .section-title h3{
+        font-size: 2em;
+    }
+    .cards img{
+        width: 70px !important;
+    }
+    .card-body{
+        margin-left: 15%;
+    }
+    .vastrener {
+        font-size: 30px;
+    }
+    .onama p{
+        font-size: 17px;
+    }
+    .onama b{
+        font-size: 15px;
+    }
+    .comments h5 {
+        font-size: 17px;
+    }
+
+    .comments h6 {
+        font-size: 13px;
+    }
+
+    .comments p {
+        font-size: 15px;
+    }
+    .text-sm-center-xs{
+        text-align: center;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .logo-size{
+        width: 22%;
+    }
+    .header-text h1{
+        font-size: 34px;
+    }
+    .header-text h2{
+        font-size: 24px;
+    }
+    .header-text p{
+        font-size: 19px;
+    }
+    .section-title h3{
+        font-size: 2.5em;
+    }
+    .cards img{
+        width: 75px !important;
+    }
+    .card-body{
+        margin-left: 7%;
+    }
+    .vastrener {
+        font-size: 31px;
+    }
+    .onama p{
+        font-size: 17px;
+    }
+    .onama b{
+        font-size: 15px;
+    }
+
+    .comments h5 {
+        font-size: 19px;
+    }
+
+    .comments h6 {
+        font-size: 15px;
+    }
+
+    .comments p {
+        font-size: 17px;
+    }
+    .text-sm-center-xs{
+        text-align: left;
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-size{
+        width: 18%;
+    }
+    .header-text h1{
+        font-size: 37px;
+    }
+    .header-text h2{
+        font-size: 27px;
+    }
+    .header-text p{
+        font-size: 19px;
+    }
+    .section-title h3{
+        font-size: 2.5em;
+    }
+    .cards img{
+        width: 75px !important;
+    }
+    .card-body{
+        margin-left: 17%;
+    }
+    .vastrener {
+        font-size: 32px;
+    }
+    .onama p{
+        font-size: 18px;
+    }
+    .onama b{
+        font-size: 16px;
+    }
+
+    .comments h5 {
+        font-size: 21px;
+    }
+
+    .comments h6 {
+        font-size: 17px;
+    }
+
+    .comments p {
+        font-size: 19px;
+    }
+    .text-sm-center-xs{
+        text-align: left;
+    }
+}
