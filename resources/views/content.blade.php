@@ -16,13 +16,15 @@
 
 
     <!--    SEO OPTIMIZATION-->
-    <title>Vaš Trener - @yield('title' , '') </title>
-{{--    <link rel="canonical" href="https://majski-architecture-solutions.com"/>--}}
+    <title>@yield('title' , '')  - Pronadji Trenera </title>
+    <link rel="icon" type="image/x-icon"  href="{{asset('')}}">
+
+    {{--    <link rel="canonical" href="https://majski-architecture-solutions.com"/>--}}
 {{--    <meta property="og:url" content="https://majski-architecture-solutions.com/"/>--}}
 
 <!-- Favicons -->
-    <link rel="shortcut icon" href="{{asset('img/logo/crni_vertikalno.png')}}"/>
-    <link href="{{asset('img/logo/crni_vertikalno.png')}}" rel="apple-touch-icon">
+    <link rel="shortcut icon" href="{{asset('img/logo/app-icon.png')}}" sizes="12x12"/>
+    <link href="{{asset('img/logo/app-icon.png')}}" rel="apple-touch-icon">
 
     <meta name="robots" content="index, follow">
     <meta name="description"
@@ -34,19 +36,19 @@
           content="@yield('keywords'  , '')"/>
     <meta property="og:description"
           content=" @yield('description'  , '')"/>
-    <meta property="og:image" content="{{asset('img/logo/crni_vertikalno.png')}}"/>
+    <meta property="og:image" content="{{asset('img/logo/logo-crni.png')}}"/>
     <meta property="og:type" content="Website"/>
     <meta name="language" content="Serbian, Srpski">
-    <meta name="copyright" content="Copyright ©️ 2023 Vaš Trener  sva prava zadržana">
+    <meta name="copyright" content="Copyright ©️ 2023 pronadjiTrenera  sva prava zadržana">
     <meta property="og:locale" content="sr"/>
 
 </head>
 <body>
 <div id="app">
-    <nav class="navbar navbar-expand-lg navbar-dark navbar-color  fixed-top ">
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-color pt-2 pb-2  fixed-top ">
         <div class="container">
-            <a class="navbar-brand logo-size" href="#">
-                <img src="{{asset('img/logo/plavi_horizontalno.png')}}" class="img-fluid" alt="logo">
+            <a class="navbar-brand logo-size" href="/">
+                <img src="{{asset('img/logo/logo-plavo-beli.png')}}" class="img-fluid" alt="logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -64,8 +66,8 @@
 
                     <li class="margin-button">
 
-                        <a  href="/login">
-                            <button class="  btn py-0 px-2 btn-outline-primary"> LOGIN <i
+                        <a  href="/register">
+                            <button class="  btn py-0 px-2 btn-outline-primary"> REGISTRACIJA <i
                                     class="fa-solid fa-right-to-bracket"></i></button>
                         </a>
                     </li>
@@ -94,11 +96,16 @@
                     <div class="row">
 
                         <div class="col-lg-4 col-md-12 text-center">
-                            <img src="{{asset('img/logo/plavi_vertikalno.png')}}" class="img-fluid w-50 "
-                                 alt="logo_beli"><br><br>
+                            <div class="w-100 d-flex justify-content-center">
+                            <div class="logo-footer">
+                                <img src="{{asset('img/logo/logo-plavo-beli.png')}}" class="img-fluid  "
+                                     alt="logo_beli">
+                            </div><br><br>
+                            </div><br>
                             <div>
-                                <p><span class="text-primary">Phone:</span> +381 65 9377030 <br>
-                                    <span class="text-primary">E-mail:</span> vastrener@gmail.com</p>
+                                <p> <span class="text-primary">Phone: </span> +381 65 9377030 <br>
+                                    <span class="text-primary">E-mail: </span> pronadjitrenera@gmail.com<br>
+                                    <span class="text-primary">Location: </span> Srbija</p>
                             </div>
 
 
@@ -146,7 +153,7 @@
 
             <div class="d-flex flex-column flex-sm-row justify-content-between  border-top ">
                 <div class="pt-3 text-center">
-                    <p>&copy; 2023 VašTrener, Sva prava zadržana.</p>
+                    <p>&copy; 2023 PronadjiTrenera, Sva prava zadržana.</p>
                 </div>
                 <div class="pt-3">
                     <ul class="list-unstyled d-flex justify-content-center">

@@ -20,7 +20,7 @@
                             <h2 class="  d-sm-none">Najbrži način da pronađete ličnog trenera, plan ishrane ili
                                 proizvod koji će zadovoljiti vaše potrebe</h2>
                             <br>
-                            <p>Ako si trener i želiš da postaneš deo trenerske zajednice klikni <a href=""
+                            <p>Ako si trener i želiš da postaneš deo trenerske zajednice klikni <a href="/register"
                                                                                                    class="ovde_link">OVDE</a>
                             </p>
                             <br>
@@ -63,8 +63,15 @@
                             <div class="row">
                                 <div class="col-12 col-sm-12  pt-3  ">
 
-                                    <button class="btn btn-primary pt-2 pb-2 button-search-text h-100 w-100"><i
-                                            class="fa-solid fa-magnifying-glass"></i> Pretraga
+                                    <button class="btn btn-primary pt-1 pb-1 button-search-text h-100 w-100"><i
+                                            class="fa-solid fa-magnifying-glass"></i> Brza Pretraga
+                                    </button>
+                                </div>
+                                <div class="col-12 col-sm-12  pt-2  ">
+                                    <button
+                                        class="btn btn-outline-primary btn-outline-primary-secound pt-1 pb-1 vastrener-blue button-search-text h-100 w-100">
+                                        <i class="fa fa-users" aria-hidden="true"></i>
+                                        Svi Treneri
                                     </button>
                                 </div>
                             </div>
@@ -116,7 +123,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/fitness.png')}}"  class="fitnes">
+                            <img src="{{asset('img/sports/fitness.png')}}" class="fitnes">
                         </div>
 
                         <div class=" ">
@@ -133,7 +140,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/crossfit.png')}}"  class="crossfit">
+                            <img src="{{asset('img/sports/crossfit.png')}}" class="crossfit">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -149,7 +156,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/cardio.png')}}"  class="kardio">
+                            <img src="{{asset('img/sports/cardio.png')}}" class="kardio">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -165,7 +172,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/power.png')}}"  class="powerlifting">
+                            <img src="{{asset('img/sports/power.png')}}" class="powerlifting">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -182,7 +189,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/boxing.png')}}"  class="boks">
+                            <img src="{{asset('img/sports/boxing.png')}}" class="boks">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -198,7 +205,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/kickbox.png')}}"  class="kikbox">
+                            <img src="{{asset('img/sports/kickbox.png')}}" class="kikbox">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -214,7 +221,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/mma.png')}}"  class="mma">
+                            <img src="{{asset('img/sports/mma.png')}}" class="mma">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -230,7 +237,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/football.png')}}"  class="fudbal">
+                            <img src="{{asset('img/sports/football.png')}}" class="fudbal">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -246,7 +253,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex  ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/basketball.png')}}"  class="kosarka">
+                            <img src="{{asset('img/sports/basketball.png')}}" class="kosarka">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -262,7 +269,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/tennis.png')}}"  class="tenis">
+                            <img src="{{asset('img/sports/tennis.png')}}" class="tenis">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -278,7 +285,7 @@
                 <div class="card cards  card-2 w-100 pt-2">
                     <div class="card-body d-flex ">
                         <div class="sport-img ">
-                            <img src="{{asset('img/sports/sport.png')}}"  class="ostalo">
+                            <img src="{{asset('img/sports/sport.png')}}" class="ostalo">
                         </div>
                         <div class=" d-flex  align-items-center ">
                             <div class="pt-2">
@@ -304,7 +311,7 @@
                         <h3>O NAMA </h3>
                         <div class="w-100 d-flex justify-content-center">
                             <div class="blue-border"></div>
-                            <br><br>
+                            <br>
                         </div>
                     </div>
 
@@ -312,8 +319,9 @@
             </div>
             <div class="row">
                 <div class="col-lg-6 col-sm-12 desc pb-5">
-                    <div class="w-100 onama">
-                        <h2 class="vastrener">Kako <span class="vastrener-blue">vastrener.rs</span> funkcioniše?</h2>
+                    <div class="w-100 onama ">
+                        <h2 class="vastrener">Kako <span class="vastrener-blue">pronadji-trenera</span> funkcioniše?
+                        </h2>
                         <br><br>
                         <p>
                             <i class="fa-solid fa-check"></i> &nbsp; Želite da trenirate klijente uživo ili online?
@@ -334,13 +342,16 @@
                             <br>
                             <a href="">Prijavite se</a> i dozvolite da Vas pronađu.
                         </p> <br>
-
-                        <button class="btn btn-primary "><b>Saznaj više <i
-                                    class="fa-solid fa-circle-info text-light"></i></b></button>
+                        <div
+                            class=" w-100 d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-xl-end">
+                            <button class="btn btn-primary "><b>Saznaj više <i
+                                        class="fa-solid fa-circle-info text-light"></i></b></button>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 col-sm-12 ">
-                    <div class=" d-flex justify-content-end">
+                    <div
+                        class=" d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-xl-end">
                         <img src="{{asset('img/phone.png')}}" class="w-50" alt="phone">
                     </div>
                 </div>
@@ -436,7 +447,7 @@
                     <h3>PARTNERI </h3>
                     <div class="w-100 d-flex justify-content-center">
                         <div class="blue-border"></div>
-                        <br><br>
+                        <br>
                     </div>
                 </div>
 
@@ -449,38 +460,48 @@
                     našim klijentima. Suradnja s našim partnerima pomaže nam da pronađemo inovativna rešenja i
                     zajednički radimo na ostvarivanju ciljeva.
                 </p>
-                <p class="fst-italic text-primary">Naši partneri su odabrani zbog svoje stručnosti, kvaliteta proizvoda
+                <p class="fst-italic text-primary-secound">Naši partneri su odabrani zbog svoje stručnosti, kvaliteta
+                    proizvoda
                     i usluga i kulture poslovanja koja odgovara našim vrednostima.</p>
                 <p>Kao partneri, zajedno radimo na razvoju novih proizvoda i usluga koje mogu pomoći našim klijentima u
                     postizanju njihovih ciljeva. Kroz naša partnerstva, stvaramo dugoročne i uspešne odnose koji su
                     temeljeni na poverenju i međusobnom poštovanju.</p>
                 <p>Hvala na poseti našoj stranici o partnerima, a za više informacija o partnerstvu,
-                    <span class="text-primary fst-italic"> kontaktirajte nas putem e-pošte ili telefona.</span>
+                    <span class="text-primary-secound fst-italic"> kontaktirajte nas putem e-pošte ili telefona.</span>
                 </p>
                 <br>
                 <div class=" text-sm-center-xs">
-                    <a class="scrollto" href="#kontakt"><button class="btn btn-primary  "><b>Kontakt <i class="fa-solid fa-address-book"></i></b></button></a>
+                    <a class="scrollto" href="#kontakt">
+                        <button class="btn btn-primary  "><b>Kontakt <i class="fa-solid fa-address-book"></i></b>
+                        </button>
+                    </a>
                 </div>
             </div>
             <div class="col-lg-6 col-sm-12 ">
                 <div class="row">
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner1">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner2">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner3">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner4">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner5">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
-                    <div class="col-lg-4 col-md-6 col-sm-12 text-center pb-3">
-                        <img src="{{asset("img/partneri.png")}}" class="img-fluid" alt="petner6">
+                    <div class="col-lg-4 col-md-6 col-sm-12 text-center ">
+                        <div class="logo-partner d-flex justify-content-center align-items-center">
+                            <span>Logo kompanije</span></div>
                     </div>
                 </div>
             </div>
@@ -499,7 +520,7 @@
                         <h3>KONTAKT </h3>
                         <div class="w-100 d-flex justify-content-center">
                             <div class="blue-border bg-light"></div>
-                            <br><br>
+                            <br>
                         </div>
                     </div>
 
@@ -508,27 +529,42 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-12 pb-3">
                     <div class="box bg-light text-center pt-4 pb-4">
-                        <i class="fa-solid fa-earth-europe text-primary"></i><br><br>
-                        <h4> Evropa  Srbija </h4>
+                        <span class="round-border">
+                            <i class="fa-solid fa-earth-europe text-primary-secound"></i>
+                        </span>
+                        <br><br>
+                        <h4 class="fw-bold"> Naša Lokacija </h4>
+                        <h5> Evropa Srbija </h5>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12   pb-3">
                     <div class="box  bg-light text-center pt-4 pb-4 ">
-                        <i class="fa-solid fa-envelope text-primary"></i> <br><br>
-                        <h4> vastrener@gmail.com </h4>
+                    <span class="round-border">
+                        <i class="fa-solid fa-envelope text-primary-secound"></i>
+                   </span>
+                        <br><br>
+                        <h4 class="fw-bold"> Naš E-mail </h4>
+                        <h5> pronadji-trenera@gmail.com </h5>
                     </div>
                 </div>
                 <div class="col-lg-4 col-sm-12  pb-3">
                     <div class="box  bg-light text-center pt-4 pb-4">
-                        <i class="fa-solid fa-phone text-primary"></i><br><br>
-                        <h4 > +381 65 9377030 </h4>
+                        <span class="round-border">
+                        <i class="fa-solid fa-phone text-primary-secound"></i>
+                        </span>
+                        <br><br>
+                        <h4 class="fw-bold"> Naš Telefon </h4>
+                        <h5> +381 65 9377030 </h5>
                     </div>
                 </div>
             </div>
             <br><br>
             <div class="row">
                 <div class="col-lg-6 col-md-12  pb-3">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933886.414387111!2d15.906813495451411!3d44.10144462172507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47571ddff2898095%3A0x55e50ea3723865d!2z0KHRgNCx0LjRmNCw!5e0!3m2!1ssr!2srs!4v1683545797713!5m2!1ssr!2srs"   allowfullscreen="" class="w-100 h-100 map" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2933886.414387111!2d15.906813495451411!3d44.10144462172507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47571ddff2898095%3A0x55e50ea3723865d!2z0KHRgNCx0LjRmNCw!5e0!3m2!1ssr!2srs!4v1683545797713!5m2!1ssr!2srs"
+                        allowfullscreen="" class="w-100 h-100 map" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-12  pb-3">
                     <div class="box bg-light  pt-4 pb-4 px-4">
@@ -537,20 +573,29 @@
                                 <input type="text" id="ime" name="ime" placeholder="Ime i prezime" class="form-control">
                             </div>
                             <div class="form-group  pb-3">
-                                <input type="text" id="email" name="email"  placeholder="E-mail"  class="form-control">
+                                <input type="text" id="email" name="email" placeholder="E-mail" class="form-control">
                             </div>
                             <div class="form-group  pb-3">
-                                <input type="text" id="naslov" name="naslov"  placeholder="Naslov poruke"  class="form-control">
+                                <input type="text" id="naslov" name="naslov" placeholder="Naslov poruke"
+                                       class="form-control">
                             </div>
                             <div class="form-group  pb-4">
-                                <textarea id="sadrzaj" name="sadrzaj" rows="7"   placeholder="Sadržaj poruke"  class="form-control"></textarea>
+                                <textarea id="sadrzaj" name="sadrzaj" rows="7" placeholder="Sadržaj poruke"
+                                          class="form-control"></textarea>
                             </div>
                             <div class="send">
-                                <button class="btn btn-primary px-5"> Pošalji <i class="fa-solid fa-paper-plane "></i> </button>
+                                <button class="btn btn-primary px-5"> Pošalji <i class="fa-solid fa-paper-plane "></i>
+                                </button>
                             </div>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+    @include("blogs.last_blogs")
+
 @endsection
