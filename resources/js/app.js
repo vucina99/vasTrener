@@ -16,7 +16,16 @@ import { createApp } from 'vue';
 const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
+import TrainersList from './components/trainers/list/TrainersList.vue';
+import ProfileTab from "@/components/trainers/profile/ProfileTab.vue";
+
 app.component('example-component', ExampleComponent);
+app.component('trainers-list', TrainersList);
+app.component('profile-tab', ProfileTab);
+
+
+/**
+
 
 /**
  * The following block of code may be used to automatically register your

@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
-          integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
     <script src="https://kit.fontawesome.com/efd70ed668.js" crossorigin="anonymous"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -20,7 +20,7 @@
     <link rel="icon" type="image/x-icon"  href="{{asset('')}}">
 
     {{--    <link rel="canonical" href="https://majski-architecture-solutions.com"/>--}}
-{{--    <meta property="og:url" content="https://majski-architecture-solutions.com/"/>--}}
+    {{--    <meta property="og:url" content="https://majski-architecture-solutions.com/"/>--}}
 
 <!-- Favicons -->
     <link rel="shortcut icon" href="{{asset('img/logo/app-icon.png')}}" sizes="12x12"/>
@@ -81,8 +81,8 @@
     <header>
         @yield('header' , '')
     </header>
-    <main>
-        <div class="standard-height">
+    <main >
+        <div>
             @yield('content')
         </div>
 
@@ -172,18 +172,17 @@
         </div>
         <br>
     </footer>
+</div>
+<script
+    src="https://code.jquery.com/jquery-3.6.4.js"
+    integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
+    crossorigin="anonymous"></script>
 
-    <script
-        src="https://code.jquery.com/jquery-3.6.4.js"
-        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
-        crossorigin="anonymous"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 
-    <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-rqqChHoOgAnr3A43xKQEXZV7Mw1YpZVzR/cZhE9Xe7kstHZ+jr3i7xwu2QZms1T/"
-            crossorigin="anonymous"></script>
 
-    @vite( 'resources/js/app.js')
+@vite( 'resources/js/app.js')
 
 
 </body>

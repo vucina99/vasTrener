@@ -343,7 +343,7 @@
                             <a href="">Prijavite se</a> i dozvolite da Vas pronađu.
                         </p> <br>
                         <div
-                            class=" w-100 d-flex justify-content-center justify-content-sm-center justify-content-md-end justify-content-xl-end">
+                            class=" w-100 d-flex justify-content-center justify-content-sm-center justify-content-md-start justify-content-xl-start">
                             <button class="btn btn-primary "><b>Saznaj više <i
                                         class="fa-solid fa-circle-info text-light"></i></b></button>
                         </div>
