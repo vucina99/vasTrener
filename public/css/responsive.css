@@ -63,6 +63,9 @@
     .card-trainer{
         width:90%
     }
+    .card-blog{
+        width:90%
+    }
     .h1-name h1{
         font-size: 28px;
     }
@@ -84,6 +87,9 @@
      .trainer-package h4{
          font-size: 16px;
      }
+    #contactTrainer h4{
+        font-size: 16px;
+    }
     .trainer-package h5{
         font-size: 14px;
     }
@@ -154,6 +160,9 @@
     .card-trainer{
         width:75%
     }
+    .card-blog{
+        width:75%
+    }
     .h1-name h1{
         font-size: 28px;
     }
@@ -170,6 +179,9 @@
         font-size: 15px !important;
     }
     .trainer-package h4{
+        font-size: 18px;
+    }
+    #contactTrainer h4{
         font-size: 18px;
     }
     .trainer-package h5{
@@ -243,6 +255,9 @@
     .card-trainer{
         width:100%
     }
+    .card-blog{
+        width:100%
+    }
     .h1-name h1{
         font-size: 25px;
     }
@@ -259,6 +274,10 @@
         font-size: 15px !important;
     }
     .trainer-package h4{
+        font-size: 17px;
+    }
+
+    #contactTrainer h4{
         font-size: 17px;
     }
 
@@ -333,6 +352,9 @@
     .card-trainer{
         width:100%
     }
+    .card-blog{
+        width:100%
+    }
     .h1-name h1{
         font-size: 28px;
     }
@@ -349,6 +371,9 @@
         font-size: 15px !important;
     }
     .trainer-package h4{
+        font-size: 19px;
+    }
+    #contactTrainer h4{
         font-size: 19px;
     }
     .trainer-package h5{
@@ -422,6 +447,9 @@
     .card-trainer{
         width:90%
     }
+    .card-blog{
+        width:100%
+    }
     .h1-name h1{
         font-size:28px;
     }
@@ -438,9 +466,14 @@
         font-size: 15px !important;
     }
     .trainer-package h4{
+        font-size: 17.5px;
+    }
+    #contactTrainer h4{
         font-size: 19.5px;
     }
     .trainer-package h5{
         font-size: 15.5px;
     }
+
+
 }

@@ -11,10 +11,10 @@
             <a :class="[activeTab == 2 ? 'active' : '','nav-link vastrener-blue fw-bold']"  @click="changeTab(2, $event)"  href="#">Galerija</a>
         </li>
         <li class="nav-item">
-            <a class="nav-link" :class="[activeTab == 3 ? 'active' : '','nav-link vastrener-blue fw-bold']"  @click="changeTab(3, $event)"  href="#">Ponude</a>
+            <a  :class="[activeTab == 3 ? 'active' : '','nav-link vastrener-blue fw-bold']"  @click="changeTab(3, $event)"  href="#">Ponude</a>
         </li>
         <li class="nav-item">
-            <a :class="[activeTab == 4 ? 'active' : '','nav-link vastrener-blue fw-bold']"  @click="changeTab(4, $event)"  >Ocene</a>
+            <a :class="[activeTab == 4 ? 'active' : '','nav-link vastrener-blue fw-bold']"  @click="changeTab(4, $event)"  href="#" >Ocene</a>
         </li>
 
     </ul>

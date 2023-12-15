@@ -52,7 +52,7 @@
                                                        class=" col-form-label">Vaša e-mail adresa *</label>
 
                                                 <div class="col-md-12">
-                                                    <input id="email" type="email"
+                                                    <input id="email" type="text"
                                                            class="form-control @error('email') is-invalid @enderror"
                                                            name="email" value="{{ old('email') }}"
                                                            autocomplete="email">

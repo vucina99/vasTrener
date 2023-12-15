@@ -90,8 +90,8 @@
                                         <td></td>
                                     </tr>
                                     <tr>
-                                        <td colspan="2">
-                                            <button type="button" class="btn w-100 btn-outline-light "><i class="fa-solid fa-paper-plane contact-trainer-plain"></i> &nbsp; Kontaktiraj trenera</button>
+                                        <td colspan="2" class="text-left">
+                                            <profile-contact></profile-contact>
                                         </td>
                                     </tr>
                                 </tbody>

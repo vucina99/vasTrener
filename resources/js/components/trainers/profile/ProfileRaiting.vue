@@ -12,7 +12,7 @@ export default defineComponent({
         <div class="trainer-package border-0  p-0 pt-2 d-flex justify-content-between">
             <div class="pt-2"> <h5 class="fw-bold ">Ocena: 3.5 <i class="fa-solid fa-star text-warning mt-1"></i> </h5></div>
             <div>
-                <button class="btn btn-primary">Oceni trenera <i class="fa-solid fa-plus"></i></button>
+                <give-rate></give-rate>
             </div>
 
         </div>

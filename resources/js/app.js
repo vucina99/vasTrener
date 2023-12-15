@@ -5,6 +5,7 @@
  */
 
 import './bootstrap';
+import VuePictureSwipe from 'vue3-picture-swipe';
 import { createApp } from 'vue';
 
 /**
@@ -17,11 +18,16 @@ const app = createApp({});
 
 import ExampleComponent from './components/ExampleComponent.vue';
 import TrainersList from './components/trainers/list/TrainersList.vue';
-import ProfileTab from "@/components/trainers/profile/ProfileTab.vue";
+import ProfileTab from "./components/trainers/profile/ProfileTab.vue";
+import ProfileContact from './components/trainers/profile/ProfileContact.vue';
+import GiveRate from "./components/trainers/profile/GiveRate.vue";
 
+app.component('vue-picture-swipe', VuePictureSwipe);
 app.component('example-component', ExampleComponent);
 app.component('trainers-list', TrainersList);
 app.component('profile-tab', ProfileTab);
+app.component('profile-contact', ProfileContact);
+app.component('give-rate', GiveRate);
 
 
 /**

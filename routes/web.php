@@ -14,11 +14,16 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view("index");
+});
+Route::get('/trener', function () {
     return view("trainers.trainer_profile");
 });
 Route::get('/treneri', function () {
     return view("trainers.trainer_list");
 });
-Auth::routes();
+Auth::routes([
+    'verify' => true
+]);
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home')->middleware("verified");

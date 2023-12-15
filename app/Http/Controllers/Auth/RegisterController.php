@@ -6,6 +6,7 @@ use App\Http\Controllers\Controller;
 use App\Providers\RouteServiceProvider;
 use App\Models\User;
 use Illuminate\Foundation\Auth\RegistersUsers;
+use Illuminate\Notifications\Messages\MailMessage;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Support\Facades\Validator;
 
@@ -69,5 +70,14 @@ class RegisterController extends Controller
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
         ]);
+    }
+
+    public function buildMailMessage($url)
+    {
+        return (new MailMessage)
+            ->subject(__('sr.sr.verify_email_address'))
+            ->line(__('sr.sr.verify_email_line'))
+            ->action(__('sr.sr.verify_email_action'), $url)
+            ->line(__('sr.sr.verify_email_no_action'));
     }
 }

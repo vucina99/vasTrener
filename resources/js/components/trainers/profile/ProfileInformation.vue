@@ -69,12 +69,12 @@ export default defineComponent({
             </div>
             <br>
             <hr>
-            <div class="row">
-                <div class="col-12  mt-1">
+                <div class="col-12 p-0  mt-1 d-flex justify-content-center">
+                    <div class="w-100">
                     <div class="text-center">
                     <span class="fw-bold ">  <i class="fa-solid fa-comment  vastrener-blue"></i> O meni </span><br>
                     </div>
-                    <div class="bg-light aboutme  mt-3">
+                    <div class="bg-light aboutme   mt-3">
                        <p>
 
                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis faucibus tortor, vitae

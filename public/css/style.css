@@ -566,3 +566,53 @@ a {
 .vastrener-border{
     border-radius: 7px;
 }
+
+.gallery-photo-div{
+    width: 200px;
+    height: 200px;
+}
+.my-gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery-thumbnail img{
+    object-fit: cover;
+    width: 250px;
+    height: 250px;
+    border-radius: 7px;
+}
+.gallery-thumbnail img:hover{
+    border:5px solid #004591;
+
+}
+.information-container  div{
+    max-width: 100%;
+
+}
+.information-container .badge{
+    display: inline-block;
+    max-width: 100%;
+    overflow: hidden;
+    word-wrap: break-word;
+    white-space: pre-wrap;
+}
+.contact-text{
+    font-size: 14.5px !important;
+}
+.fa-fa-smile{
+    font-size: 14.5px !important;
+
+}
+.lable-font{
+    text-align: left !important;
+    font-size: 14.5px !important;
+    color: #212259 !important;
+    margin-top: 14px;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.fa-star {
+    user-select: none;  /* Ovaj stil može uzrokovati uspravnu crtu */
+}

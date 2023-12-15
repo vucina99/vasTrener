@@ -567,7 +567,7 @@
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <div class="col-lg-6 col-md-12  pb-3">
-                    <div class="box bg-light  pt-4 pb-4 px-4">
+                    <div class="box bg-light  pt-5 pb-5 px-4">
                         <form action="">
                             <div class="form-group pb-3">
                                 <input type="text" id="ime" name="ime" placeholder="Ime i prezime" class="form-control">

@@ -50,9 +50,7 @@
             <a class="navbar-brand logo-size" href="/">
                 <img src="{{asset('img/logo/logo-plavo-beli.png')}}" class="img-fluid" alt="logo">
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -61,17 +59,35 @@
                     <li class="nav-item "><a href="/treneri" class="nav-link  text-light">TRENERI</a></li>
                     <li class="nav-item "><a href="/onama" class="nav-link text-light">O NAMA</a></li>
                     <li class="nav-item scrollto"><a href="/#partneri" class="nav-link  text-light">PARTNERI</a></li>
+                    <li class="nav-item scrollto"><a href="/#partneri" class="nav-link  text-light">BLOG</a></li>
                     <li class="nav-item scrollto"><a href="/#kontakt" class="nav-link text-light">KONTAKT</a></li>
-
-
+                    @guest
                     <li class="margin-button">
 
                         <a  href="/register">
-                            <button class="  btn py-0 px-2 btn-outline-primary"> REGISTRACIJA <i
+                            <button class="  btn py-0 px-2 btn-outline-primary"> REGISTRACIJA TRENERA <i
                                     class="fa-solid fa-right-to-bracket"></i></button>
                         </a>
                     </li>
+                    @else
+                        <li class="nav-item dropdown">
+                            <a id="navbarDropdown" class="nav-link active dropdown-toggle text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>
+                               Vuk
+                            </a>
 
+                            <div class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="{{ route('logout') }}"
+                                   onclick="event.preventDefault();
+                                                     document.getElementById('logout-form').submit();">
+                                    {{ __('Logout') }}
+                                </a>
+
+                                <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
+                                    @csrf
+                                </form>
+                            </div>
+                        </li>
+                    @endguest
                 </ul>
 
             </div>
@@ -119,8 +135,9 @@
                                 <li class="nav-item mb-2"><a href="/onama" class="nav-link p-0 text-light">O nama</a></li>
                                 <li class="nav-item mb-2"><a href="/#partneri" class="nav-link p-0 text-light">Partneri</a></li>
                                 <li class="nav-item mb-2"><a href="/#kontakt" class="nav-link p-0 text-light">Kontakt</a></li>
+                                <li class="nav-item mb-2"><a href="/#kontakt" class="nav-link p-0 text-light">Blog</a></li>
                                 <li class="nav-item mb-2"><a href="/login" class="nav-link p-0 text-light">Login</a></li>
-                                <li class="nav-item mb-2"><a href="/register" class="nav-link p-0 text-light">Registracija</a>
+                                <li class="nav-item mb-2"><a href="/register" class="nav-link p-0 text-light">Registracija trenera</a>
                                 </li>
                             </ul>
                         </div>
@@ -143,8 +160,8 @@
                             mnogo toga. Pretplatite se danas kako biste ostali u toku sa najnovijim vestima i
                             ponudama!.</p>
                         <div class="d-flex flex-column flex-sm-row w-100 gap-2">
-                            <label for="newsletter1" class="visually-hidden">E-mail</label>
-                            <input id="newsletter1" type="text" class="form-control" placeholder="E-mail">
+                            <label for="newsletter1" class="visually-hidden">Vaš e-mail</label>
+                            <input id="newsletter1" type="text" class="form-control" placeholder="Vaš e-mail">
                             <button class="btn btn-primary" type="button">Prijava</button>
                         </div>
                     </form>
@@ -173,15 +190,19 @@
         <br>
     </footer>
 </div>
+
 <script
     src="https://code.jquery.com/jquery-3.6.4.js"
     integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E="
     crossorigin="anonymous"></script>
 
 <!-- Bootstrap JS -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
 
+{{--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>--}}
 
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 @vite( 'resources/js/app.js')
 
 

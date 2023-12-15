@@ -15,9 +15,9 @@
             <h5 class="text-center">Ovde možete čitati najnovije blog postove  o vežbanju, zdravoj ishrani i pronaći inspiraciju za svoj fitnes put.
                 <br> Naš cilj je da vam omogućimo pristup korisnim informacijama koje će vam pomoći u postizanju vaših fitness ciljeva</h5> <br>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div">
-            <div class="card">
-                <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/pasta.jpg" alt="Bologna">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div d-flex justify-content-center">
+            <div class="card card-blog">
+                <img class="card-img" src="/img/cover.jpg" alt="Bologna">
                 <!-- Preklapajući sadržaj -->
                 <div  class="position-absolute category-button" >
                     <a href="#" class="btn btn-light vastrener-blue btn-sm">Trening</a>
@@ -30,7 +30,8 @@
                         <i class="fas fa-users text-primary-secound"></i> 4 portions
                     </small>
                     <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                    <a href="#" class="btn btn-primary ">Pročitaj više</a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
+                    <a href="#" class="btn btn-primary ">Pročitaj više <i
+                            class="fa-regular fa-eye"></i> </a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
                 </div>
                 <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                     <div class="views">Oct 20, 12:45PM</div>
@@ -41,9 +42,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div">
-            <div class="card">
-                <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/pasta.jpg" alt="Bologna">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div  d-flex justify-content-center">
+            <div class="card  card-blog">
+                <img class="card-img" src="/img/cover.jpg" alt="Bologna">
                 <!-- Preklapajući sadržaj -->
                 <div  class="position-absolute category-button" >
                     <a href="#" class="btn btn-light vastrener-blue btn-sm">Ishrana</a>
@@ -56,7 +57,8 @@
                         <i class="fas fa-users text-primary-secound"></i> 4 portions
                     </small>
                     <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                    <a href="#" class="btn btn-primary ">Pročitaj više</a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
+                    <a href="#" class="btn btn-primary ">Pročitaj više <i
+                            class="fa-regular fa-eye"></i></a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
                 </div>
                 <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                     <div class="views">Oct 20, 12:45PM</div>
@@ -67,9 +69,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div">
-            <div class="card">
-                <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/pasta.jpg" alt="Bologna">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div  d-flex justify-content-center">
+            <div class="card  card-blog">
+                <img class="card-img" src="/img/cover.jpg" alt="Bologna">
                 <!-- Preklapajući sadržaj -->
                 <div  class="position-absolute category-button" >
                     <a href="#" class="btn btn-light vastrener-blue btn-sm">Trening</a>
@@ -82,7 +84,8 @@
                         <i class="fas fa-users text-primary-secound"></i> 4 portions
                     </small>
                     <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                    <a href="#" class="btn btn-primary ">Pročitaj više</a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
+                    <a href="#" class="btn btn-primary ">Pročitaj više <i
+                            class="fa-regular fa-eye"></i></a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
                 </div>
                 <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                     <div class="views">Oct 20, 12:45PM</div>
@@ -93,9 +96,9 @@
                 </div>
             </div>
         </div>
-        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div">
-            <div class="card">
-                <img class="card-img" src="https://s3.eu-central-1.amazonaws.com/bootstrapbaymisc/blog/24_days_bootstrap/pasta.jpg" alt="Bologna">
+        <div class="col-12 col-sm-12 col-md-6 col-lg-3 card-round-div  d-flex justify-content-center">
+            <div class="card  card-blog">
+                <img class="card-img" src="/img/cover.jpg" alt="Bologna">
                 <!-- Preklapajući sadržaj -->
                 <div  class="position-absolute category-button" >
                     <a href="#" class="btn btn-light vastrener-blue btn-sm">Ishrana</a>
@@ -108,7 +111,9 @@
                         <i class="fas fa-users text-primary-secound"></i> 4 portions
                     </small>
                     <p class="card-text">I love quick, simple pasta dishes, and this is one of my favorite.</p>
-                    <a href="#" class="btn btn-primary ">Pročitaj više</a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
+                    <a href="#" class="btn btn-primary ">Pročitaj više <i
+                            class="fa-regular fa-eye"></i></a> <!-- Pomaknuli smo gumb izvan card-img-overlay -->
+
                 </div>
                 <div class="card-footer text-muted d-flex justify-content-between bg-transparent border-top-0">
                     <div class="views">Oct 20, 12:45PM</div>
